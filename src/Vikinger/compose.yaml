@@ -1,0 +1,7 @@
+﻿services:
+  vikinger.web:
+    image: vikinger.web
+    build:
+      context: .
+      dockerfile: Vikinger.Web/Dockerfile
+
